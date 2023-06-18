@@ -51,8 +51,16 @@ a {
   padding-bottom: 30px;
   margin-bottom: 15px;
 }
+.main-info__container{
+    flex: 70%;
+  }
+
+.additional{
+  flex: 30%;
+}  
 
 @media screen and (max-width: 576px) {
+  
   .main-info,
   .contact_info_container {
     flex-direction: column;
@@ -168,7 +176,7 @@ a {
   text-align: justify;
 }
 
-.skills__header {
+.skills__header, .likes-dislikes__header, .strengths-weaknesses__header, .hobbies__header, .languages__header {
   color: var(--secondary-text-color);
   text-align: center;
   margin-bottom: 15px;
@@ -180,7 +188,7 @@ a {
 }
 .experiences {
   flex: 1 1 60%;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 
 .experiences__header {
@@ -292,6 +300,13 @@ a {
 
 .training__company-class {
   font-weight: 600;
+}
+
+
+.additional{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  
 }
 
 .additional-info {
