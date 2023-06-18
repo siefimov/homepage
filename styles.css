@@ -191,20 +191,34 @@ a {
 }
 
 .skills__list,
-.likes__list, .dislikes__list {
+.likes__list,
+.dislikes__list,
+.strengths__list,
+.weaknesses__list,
+.hobbies__list,
+.languages__list {
   margin-left: 30px;
 }
 .skills__item,
-.likes__item, .dislikes__item {
+.likes__item,
+.dislikes__item,
+.strengths__item,
+.weaknesses__item,
+.hobbies__item,
+.languages__item {
   font-size: 14px;
   color: var(--secondary-text-color);
   margin-bottom: 5px;
 }
-.likes, .dislikes{
+.likes,
+.dislikes,
+.strengths,
+.weaknesses {
   color: var(--secondary-text-color);
-  font-weight: 600;
+  text-decoration: underline;
+  /* font-weight: 600; */
 }
-.likes__list{
+.likes__list {
   margin-bottom: 10px;
 }
 
