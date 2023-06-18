@@ -16,7 +16,7 @@ body {
   --text-decoration-color: #ff9a00;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -240,7 +240,7 @@ a{
   display: flex;
   gap: 10px;
 }
-.experiences__project-description{
+.experiences__project-description {
   color: var(--secondary-text-color);
   margin-bottom: 10px;
 }
@@ -259,6 +259,39 @@ a{
 .experiences__project-responsibilities {
   color: var(--secondary-text-color);
   padding-left: 20px;
+}
+
+.education {
+  margin-bottom: 20px;
+}
+.education__header {
+  color: var(--secondary-text-color);
+}
+
+.education__university-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.training {
+  margin-bottom: 20px;
+}
+.training__header {
+  margin-bottom: 10px;
+  color: var(--secondary-text-color);
+}
+
+.training__company{
+  margin-bottom: 10px;
+}
+.training__company-header {
+  display: flex;
+  gap: 10px;
+}
+
+.training__company-class {
+  font-weight: 600;
 }
 
 .additional-info {
