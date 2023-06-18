@@ -88,10 +88,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-width: 230px;
+}
+
+.contact-info__block:last-child{
+  align-items: flex-end;
 }
 
 .contact-info__block--center {
   justify-content: center;
+  align-items: center;
 }
 
 .contact-info__item {
@@ -112,6 +118,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contact-info__block:last-child .contact-info__item-icon-wrapper {
+ margin-left: 10px;
+ margin-right: 0px;
 }
 
 .contact-info__item-icon path {
