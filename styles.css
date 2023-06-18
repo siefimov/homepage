@@ -178,13 +178,21 @@ a {
 
 .skills__header, .likes-dislikes__header, .strengths-weaknesses__header, .hobbies__header, .languages__header {
   color: var(--secondary-text-color);
-  text-align: center;
+  text-align: start;
   margin-bottom: 15px;
 }
 
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
+}
+
+.skills__list{
+  margin-left: 30px;
+}
+.skills__item{
+  font-size: 14px;
+  color: var(--secondary-text-color);
 }
 .experiences {
   flex: 1 1 60%;
