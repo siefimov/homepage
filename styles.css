@@ -51,16 +51,15 @@ a {
   padding-bottom: 30px;
   margin-bottom: 15px;
 }
-.main-info__container{
-    flex: 70%;
-  }
+.main-info__container {
+  flex: 70%;
+}
 
-.additional{
+.additional {
   flex: 30%;
-}  
+}
 
 @media screen and (max-width: 576px) {
-  
   .main-info,
   .contact_info_container {
     flex-direction: column;
@@ -176,7 +175,11 @@ a {
   text-align: justify;
 }
 
-.skills__header, .likes-dislikes__header, .strengths-weaknesses__header, .hobbies__header, .languages__header {
+.skills__header,
+.likes-dislikes__header,
+.strengths-weaknesses__header,
+.hobbies__header,
+.languages__header {
   color: var(--secondary-text-color);
   text-align: start;
   margin-bottom: 15px;
@@ -187,16 +190,26 @@ a {
   text-align: justify;
 }
 
-.skills__list{
+.skills__list,
+.likes__list, .dislikes__list {
   margin-left: 30px;
 }
-.skills__item{
+.skills__item,
+.likes__item, .dislikes__item {
   font-size: 14px;
   color: var(--secondary-text-color);
+  margin-bottom: 5px;
 }
+.likes, .dislikes{
+  color: var(--secondary-text-color);
+  font-weight: 600;
+}
+.likes__list{
+  margin-bottom: 10px;
+}
+
 .experiences {
   flex: 1 1 60%;
-  /* margin-right: 50px; */
 }
 
 .experiences__header {
@@ -298,7 +311,7 @@ a {
   color: var(--secondary-text-color);
 }
 
-.training__company{
+.training__company {
   margin-bottom: 10px;
 }
 .training__company-header {
@@ -310,11 +323,10 @@ a {
   font-weight: 600;
 }
 
-
-.additional{
+.additional {
   display: flex;
   flex-direction: column;
-  gap: 20px;  
+  gap: 20px;
 }
 
 .additional-info {
