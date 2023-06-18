@@ -16,6 +16,10 @@ body {
   --text-decoration-color: #ff9a00;
 }
 
+a{
+  text-decoration: none;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 30px;
@@ -91,7 +95,7 @@ body {
   min-width: 230px;
 }
 
-.contact-info__block:last-child{
+.contact-info__block:last-child {
   align-items: flex-end;
 }
 
@@ -121,8 +125,8 @@ body {
 }
 
 .contact-info__block:last-child .contact-info__item-icon-wrapper {
- margin-left: 10px;
- margin-right: 0px;
+  margin-left: 10px;
+  margin-right: 0px;
 }
 
 .contact-info__item-icon path {
@@ -157,12 +161,8 @@ body {
 .intro__icon {
   height: 1.1428rem;
   vertical-align: text-bottom;
+  color: var(--text-decoration-color);
 }
-
-.intro__icon path {
-  fill: var(--text-decoration-color);
-}
-
 .intro_text {
   color: var(--secondary-text-color);
   text-align: justify;
@@ -189,14 +189,14 @@ body {
   margin-bottom: 20px;
 }
 
-.experiences__company-header-durability {
+.experiences__header-durability {
   color: var(--durability-text-color);
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
-.experiences__company-header-name {
+.experiences__header-name {
   color: var(--primary-text-color);
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
@@ -204,25 +204,59 @@ body {
   margin-bottom: 20px;
 }
 
-.experiences__company-project {
+.experiences__project {
   margin-left: 15px;
   margin-bottom: 25px;
 }
 
-.experiences__company-project-role {
+.experiences__project-header {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.experiences__project-role {
   color: var(--durability-text-color);
   text-align: left;
-  margin-bottom: 10px;
   font-size: 15px;
 }
 
-.experiences__company-project-name {
+.experiences__project-name {
   color: var(--primary-text-color);
   text-align: left;
-  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.experiences__project-duration {
+  color: var(--durability-text-color);
+  text-align: left;
+  font-size: 15px;
 }
 
-.experiences__company-project-responsibilities {
+.experiences__project-stack {
+  display: flex;
+  gap: 10px;
+}
+.experiences__project-description{
+  color: var(--secondary-text-color);
+  margin-bottom: 10px;
+}
+.experiences__project-stack-title {
+  font-weight: 600;
+}
+.experiences__project-stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  list-style: none;
+  font-style: italic;
+  color: var(--secondary-text-color);
+}
+
+.experiences__project-responsibilities {
   color: var(--secondary-text-color);
   padding-left: 20px;
 }
